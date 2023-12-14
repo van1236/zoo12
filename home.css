@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.Google {
+    color: #fff;
+    background-color:#86E3E7;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.Google:hover {
+    background-color:aquamarine;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgb(234, 238, 232);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 200px;
+    }
+    .logo{
+        text-decoration: none;
+        color:#86E3E7 ;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.8em;
+    
+        }
+
+
+
+
+
+
+
+
+body 
+{
+  font-family: Calibri; 
+  background: -WebKit-linear-gradient(to right, #C8D16B, #86E3E7, #FB5FFB);  
+  background: linear-gradient(to right,  #86E3E7,#FB5FFB); 
+  color: WhiteSmoke;
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+form{
+    width:35rem;
+    margin: auto;
+    color: WhiteSmoke;
+    backdrop-filter: blur(16px) saturate(180%);
+    -WebKit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(11, 15, 13, 0.582);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 20px 25px;
+}
+
+input[type=text], input[type=password]{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 15px 18px;
+    box-sizing: border-box;
+  }
+
+
+
+  .main-btn {
+    color: #fff;
+    background-color:rgb(216, 113, 202);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    background-color:aquamarine;
+    transform: scale(1.1);
+}
+
+
+  /* Quick on the way out */
+  transition: 1s;
+    color: #86E3E7;
+    font-weight: 400px;
+}
+
+.headingsContainer{
+    text-align: center;
+}
+
+.headingsContainer p{
+    color: gray;
+}
+.mainContainer{
+    padding: 16px;
+}
+
+
+.subcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subcontainer a{
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+span.forgotpsd a {
+    float: right;
+    color: WhiteSmoke;
+    padding-top: 16px;
+  }
+
+.forgotpsd a{
+    color: RGB(74, 146, 235);
+  }
+  
+.forgotpsd a:link{
+    text-decoration: none;
+  }
+
+  .register{
+    color: white;
+    text-align: center;
+  }
+  
+  .register a{
+    color: RGB(74, 146, 235);
+  }
+  
+  .register a:link{
+    text-decoration: none;
+  }
+
+  /* Media queries for the responsiveness of the page */
+  @media screen and (max-width: 600px) {
+    form{
+      width: 25rem;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    form{
+      width: 20rem;
+    }
+}
+
+
+
+.footer{
+    background-color:black;
+    color:white;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+    
+}
+.footer-title span {
+    color:palevioletred;
+}
+
+.test1{
+color: #3a6cf4;
+text-decoration: none;
+
+}
+
+.test4 a{
+    color:rgb(255, 255, 255);
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+
+.test12 :hover{
+color: cadetblue;
+}
+
+
+
+
+
+
+
